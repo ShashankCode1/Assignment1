@@ -28,7 +28,7 @@ public class ToUppercase {
         System.out.println();
     }
 
-    //Another Method to convert Lowercase character to Uppercase character(by converting chat to string)
+    //Another Method to convert Lowercase character to Uppercase character(by converting char to string)
     public static void toUppercase2(char str) {
         if (isLower(str) && isLetter(str)) {
             System.out.println(Character.toString(str).toUpperCase());
